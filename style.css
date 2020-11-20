@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+    background: url(./images/bg-pattern-top-desktop.svg) left top, url(./images/bg-pattern-bottom-desktop.svg) right top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    grid-gap: 4em;
+    grid-template-columns: 45% 50%;
+    padding: 130px;
+    padding-top: 100px;
+}
+
+.container .grid1 h1{
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 10px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.container .grid1 p {
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+}
+
+.container .grid2 .rates {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 8px;
+    background: hsl(300, 24%, 96%);
+    font-size: 13.5px;
+    font-weight: 500;
+    width: 450px;
+    height: auto;
+    align-items: center;
+    line-height: 10px;
+    color: hsl(300, 43%, 22%);
+}
+
+.container .grid2 .rates .stars {
+    margin: auto 10px;
+    margin-left: 0px;
+}
+
+.container .grid2 .rates .star {
+    margin: auto 2px;
+}
+
+.container .grid2 .rates .r1 {
+}
+
+.container .grid2 .rates.r2 {
+    margin-left: 60px;
+}
+
+.container .grid2 .rates.r3 {
+    margin-left: 100px;
+}
+
+.container .grid3 {
+    grid-column: 1/3;
+    display: flex;
+    font-size: 13px;
+}
+
+.container .grid3 .card{
+    height: fit-content;
+    margin: 10px;
+    padding: 30px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 7.5px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container .grid3 img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container .grid3 .card .card-head {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.container .grid3 .card .card-head .id {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.container .grid3 .card .card-head .id .c-name {
+    font-size: 13px;
+}
+
+.container .grid3 .card .card-head .id .details {
+    color: hsla(333, 80%, 67%, 0.692);
+    font-size: 12px;
+}
+
+.container .grid3 .card .comment {
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.container .grid3 .card2 {
+    margin-top: 30px;
+}
+
+.container .grid3 .card3 {
+    margin-top: 55px;
+}
+
